@@ -1,0 +1,6 @@
+<p>Select your donut base below</p>
+<ul>
+  <li *ngFor="let base of availableBases" (click)="selectBase(base)">
+    {{ base.name }}
+  </li>
+</ul>

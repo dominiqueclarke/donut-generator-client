@@ -1,0 +1,12 @@
+<div class="donut-order-container">
+  <h2>Current Order</h2>
+  <h4>Selected Base: {{ donut.base.name }}</h4>
+  <br/>
+  <p>Selected Toppings</p>
+  <ul>
+    <li *ngFor="let topping of donut.toppings">
+      {{topping.name}}
+    </li>
+  </ul>
+  <button (click)="orderDonut(donut)">Order</button>
+</div>

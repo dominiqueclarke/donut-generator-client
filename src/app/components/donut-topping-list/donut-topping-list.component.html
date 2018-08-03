@@ -1,0 +1,6 @@
+<p>Select your toppings below</p>
+<ul>
+  <li *ngFor="let topping of availableToppings" (click)="addTopping(topping)">
+    {{ topping.name }}
+  </li>
+</ul>

@@ -1,0 +1,11 @@
+.flex {
+  display: flex;
+}
+
+main {
+  width: 70vw;
+}
+
+sidebar {
+  width: 30vw;
+}
