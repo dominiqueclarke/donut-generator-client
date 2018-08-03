@@ -1,6 +1,12 @@
-# DonutOrder
+# Donut Generator Client
+
+This let's you choose your own donut toppings and flavors to build your own perfect donut!
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+
+## Intalling Node Modules
+
+Run `npm install` before beginning development to install dependencies.
 
 ## Development server
 
